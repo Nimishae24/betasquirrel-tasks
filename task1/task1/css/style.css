@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    margin: auto;
+}
+#navbar {
+    background-color: blue;
+    height: 80px;
+    margin-bottom: 15px;
+}
+#main-container {
+    background-color: pink;
+    height: 300px;
+    margin-bottom: 15px;
+   
+  
+
+
+}
+
+.boxes {
+    background-color: lightgreen;
+    height: 250px;
+    width: 31%;
+    float: left;
+    margin-bottom: 15px;
+}
+.m-r {
+    margin-right: 15px;
+}
+.m-l {
+    margin-left: 5px;
+}
+
+div {
+    padding: 10px;
+}
+#main-container h1 {
+    text-decoration: underline;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.left img{
+    height: 70px;
+}
+.left h2 {
+    display: inline;
+    color: brown;
+}
+.right a{
+    color:antiquewhite;
+}
+
