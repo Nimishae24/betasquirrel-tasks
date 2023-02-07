@@ -2,7 +2,11 @@ coding-task
 
 assignments
 
+## OUTPUT
 
+![TASK1](screenshort/task1.jpg)
+
+![TASK2](screenshort/task2.jpg)
 
  Task 3
 
