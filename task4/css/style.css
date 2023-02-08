@@ -169,42 +169,44 @@ margin-right: 15px;
 
 }
 .bar {
+
     height: 100%;
     width: 15px;
+    overflow: hidden;
     position: absolute;
     
 }
 .chart {
     
     position: relative;
-    display: block;
+display: block;
 }
 .chart div {
     bottom: 0;
 }
 .one {
-    left: 0;
-    height: cal((100%) - 30px);
+    left: 45px;
+    height: calc(100%- 30px);
 }
 .two {
-    left: 45px;
-    height: cal(100% - 10px);
+    left: 70px;
+    height: calc(100% - 10px);
 }
 .three {
-    left: 90px;
-    height: cal(100% - 70px);
+    left: 95px;
+    height: calc(100% - 70px);
 }
 .four {
-    left: 135px;
-    height: cal(100% - 100px);
+    left: 120px;
+    height: calc(100% - 100px);
 }
 .five {
-    left: 180px;
-    height: cal(100% - 20px);
+    left: 145px;
+    height: calc(100% - 20px);
 }
 .six {
-    left: 225px;
-    height: cal(100% - 50px);
+    left: 170px;
+    height: calc(100% - 50px);
 }
 .line {
     width: 250%;
