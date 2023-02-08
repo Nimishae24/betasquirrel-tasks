@@ -13,7 +13,7 @@ body{
 }
 #logo-container {
     float: left;
-    width: 300px;
+    width: 1900px;
     padding: 15px;
     justify-content: flex-start;
     display: flex;
@@ -57,6 +57,7 @@ margin-right: 15px;
 #container {
     padding: 15px;
     float: left;
+    width: 80%;
 
 }
 .green-bg {
@@ -84,7 +85,7 @@ margin-right: 15px;
 }
 .tile {
     height: 130px;
-    width: 231;
+    width: 250px;
     float: left;
     margin-right: 19px;
     padding: 25px;
@@ -98,7 +99,8 @@ margin-right: 15px;
 .tile h3 {
     color: white;
 }
-.circle, .chart {
+.circle,
+.chart {
     float: left;
     flex-direction: column;
     justify-content: center;
@@ -106,9 +108,8 @@ margin-right: 15px;
     align-items: center;
     height: 170px;
     width: 170px;
-    padding: 50px;
-    margin-right: 25px;
-    border-radius: 70%;
+    padding: 60px;
+    border-radius: 50%;
 
 }
 #tile-container > div,
@@ -121,20 +122,21 @@ margin-right: 15px;
     margin-right: 0;
 }
 .inner-one {
-    width: 70%;
-    height: 70%;
-    border-radius: 50%;
+    width: 60%;
+    height: 60%;
     display: flex;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
+    padding: 6px;
 }
 .inner-one h2,
 .inner-four h2 {
     color: #fff;
 }
 .inner-two {
-    width: 110%;
-    height: 160%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -147,8 +149,8 @@ margin-right: 15px;
     color: #555;
 }
 .inner-three {
-    width: 100%;
-    height: 120%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -159,17 +161,18 @@ margin-right: 15px;
 .inner-four {
     width: 60%;
     height: 60%;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     border-radius: 50%;
     padding: 6px;
-    margin-top: 25px;
+    align-items: center;
+
 }
 .bar {
+    height: 100%;
     width: 15px;
     position: absolute;
-    overflow: hidden;
+    
 }
 .chart {
     
@@ -180,31 +183,31 @@ margin-right: 15px;
     bottom: 0;
 }
 .one {
-    left: 50px;
-    height: cal(100% - 30px);
+    left: 0;
+    height: cal((100%) - 30px);
 }
 .two {
-    left: 80px;
+    left: 45px;
     height: cal(100% - 10px);
 }
 .three {
-    left: 150px;
+    left: 90px;
     height: cal(100% - 70px);
 }
 .four {
-    left: 240px;
+    left: 135px;
     height: cal(100% - 100px);
 }
 .five {
-    left: 190px;
-    height: cal(100% - 10px);
+    left: 180px;
+    height: cal(100% - 20px);
 }
 .six {
-    left: 110px;
+    left: 225px;
     height: cal(100% - 50px);
 }
 .line {
-    width: 200%;
+    width: 250%;
     height: 5px;
     background-color: #625b5b;
     position: absolute;
@@ -220,7 +223,7 @@ margin-right: 15px;
     padding: 5px;
 }
 #sidebar nav a:first-child {
-    padding: 0;
+    padding-top: 0;
 }
 #sidebar nav a.active {
     color: #0ece83;
