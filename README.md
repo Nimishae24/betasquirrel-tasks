@@ -33,18 +33,18 @@ Read the below pages and attend the tests.
  ## Linux Commands
 
  - `cd` - change current directory. Ex: `cd desktop`, `cd ..`
- -`ls` - List contents of a directory. Ex: `ls -a` list hidden files as well.
- -`pwd` - Display current working directory path
- -`cat` - Display contents of a file. Ex: `cat READ.md`
+ - `ls` - List contents of a directory. Ex: `ls -a` list hidden files as well.
+ - `pwd` - Display current working directory path
+ - `cat` - Display contents of a file. Ex: `cat READ.md`
 
 
  ## GIT Commands
 
  1. `git config` cofigure git user. Ex: `git config --global user.name "nimisha"`
  2. `git clone` clone a remote git repo to your local.Ex: `git clone https://github.com/nimisha/coding-task.git`
- 3.`git add` add your file changes to git. Ex: `git add .`
- 4.`git commit` commit changes to git. Ex: `git commit -m "initial commit"`
- 5.`git push`  push your local commits to remote repo. Ex: `git push origin main`
+ 3. `git add` add your file changes to git. Ex: `git add .`
+ 4. `git commit` commit changes to git. Ex: `git commit -m "initial commit"`
+ 5. `git push`  push your local commits to remote repo. Ex: `git push origin main`
 
  Task 5
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
@@ -57,8 +57,9 @@ Read the below pages and attend the tests.
 - [HTML Table styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
 
+  my website
 
-
+ https://nimishae24.github.io/coding-task/
 
 
 
