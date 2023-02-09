@@ -4,11 +4,11 @@ assignments
 
 ## OUTPUT
 
-![TASK1](screenshort/task-1.jpg)
+|![TASK1](screenshort/task-1.jpg)|
 
-![TASK2](screenshort/task-2.jpg)
+|![TASK2](screenshort/task-2.jpg)|
 
-![TASK4](screenshort/task-4.jpg)
+|![TASK4](screenshort/task-4.jpg)|
 
  Task 3
 
