@@ -2,12 +2,11 @@ coding-task
 
 assignments
 
-## OUTPUT
-| Requirements                       |  Output                         |
-|----------------------------------------------------------------------|
-| ![Task-1](screenshort/image-1.png) |![Task-1](screenshort/task-1.jpg)|    
-| ![Task-2](screenshort/image-2.png) |![Task-2](screenshort/task-2.jpg)| 
-| ![Task-4](screenshort/image-4.png) |![Task-4](screenshort/task-4.jpg)|
+| Requirements                     |  Output                         |
+|----------------------------------|---------------------------------|
+|![Task-1](screenshort/image-1.png)|![Task-1](screenshort/task-1.jpg)|    
+|![Task-2](screenshort/image-2.png)|![Task-2](screenshort/task-2.jpg)| 
+|![Task-4](screenshort/image-4.png)|![Task-4](screenshort/task-4.jpg)|
 
 
  Task 3
