@@ -3,12 +3,12 @@ coding-task
 assignments
 
 ## OUTPUT
+| Requirements                       |  Output                         |
+|----------------------------------------------------------------------|
+| ![Task-1](screenshort/image-1.png) |![Task-1](screenshort/task-1.jpg)|    
+| ![Task-2](screenshort/image-2.png) |![Task-2](screenshort/task-2.jpg)| 
+| ![Task-4](screenshort/image-4.png) |![Task-4](screenshort/task-4.jpg)|
 
-![TASK1](screenshort/task-1.jpg)
-
-![TASK2](screenshort/task-2.jpg)
-
-![TASK4](screenshort/task-4.jpg)
 
  Task 3
 
@@ -34,8 +34,11 @@ Read the below pages and attend the tests.
 
  - `cd` - change current directory. Ex: `cd desktop`, `cd ..`
  - `ls` - List contents of a directory. Ex: `ls -a` list hidden files as well.
- - `pwd` - Display current working directory path
+ - `pwd` - Display current working directory path.
  - `cat` - Display contents of a file. Ex: `cat READ.md`
+ - `mkdir` - To create one or more directories.
+ - `clear` - To clear git bash.
+ - `rm` - To remove file.
 
 
  ## GIT Commands
