@@ -3,17 +3,17 @@ body {
   margin: auto;
 }
 #navbar {
-  background-color: blue;
+  background-color: purple;
   height: 80px;
   margin-bottom: 15px;
 }
 #main-container {
-  background-color: pink;
+  background-color: #D1D8E8;
   height: 300px;
   margin-bottom: 15px;
 }
 .boxes {
-  background-color: lightgreen;
+  background-color: #D1D8E8;
   height: 250px;
   width: 31%;
   float: left;
@@ -42,7 +42,7 @@ div {
 }
 .left h1 {
   display: inline;
-  color: brown;
+  color: white;
 }
 .right a {
   color: antiquewhite;
