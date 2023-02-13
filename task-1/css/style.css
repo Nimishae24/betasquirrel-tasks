@@ -36,6 +36,7 @@ div {
 }
 .right {
   float: right;
+
 }
 .left img {
   height: 70px;
@@ -43,6 +44,7 @@ div {
 .left h1 {
   display: inline;
   color: white;
+  align-self: center;
 }
 .right a {
   color: antiquewhite;

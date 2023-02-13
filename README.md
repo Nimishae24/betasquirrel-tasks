@@ -61,7 +61,20 @@ Read the below pages and attend the tests.
 
   my website
 
- https://nimishae24.github.io/coding-task/
+ https://nimishae24.github.io/coding-task
+
+
+my stackoverflow link
+
+ https://stackoverflow.com/users/21205649/nimisha
+
+ my linkdin link
+
+ https://www.linkedin.com/in/nimi-e-5a4110266/
+
+
+
+
 
 
 
