@@ -1,9 +1,9 @@
 body {
-  background-color: black;
-  margin: auto;
+  background-color: #2f1b1a;
+  margin: 0 auto;
 }
 #navbar {
-  background-color: purple;
+  background-color: #533262;
   height: 80px;
   margin-bottom: 15px;
   display: flex;
@@ -16,19 +16,22 @@ body {
 }
 .container {
   height: 200px;
-  display: flex;
   flex-direction: row;
+  margin-right: 5px;
+  display: flex;
   justify-content: space-evenly;
 }
 .child1 {
   width: 200px;
   height: 250px;
-  background-color: lightgreen;
+  background-color: #86df7e;
+  float: left;
 }
 .child2 {
   width: 250px;
   height: 250px;
-  background-color: lightgreen;
+  background-color: #86df7e;
+  float: right;
 }
 #box {
   background-color: #D1D8E8;
@@ -38,8 +41,8 @@ body {
   margin-left: 10px;
   padding: 10px;
   margin-bottom: 10px;
-  border: 5px solid green;
-  outline: 10px solid brown;
+  border: 5px solid #2ca122;
+  outline: 10px solid #b94141;
 }
 div {
   padding: 10px;
@@ -65,5 +68,5 @@ div {
   color: white;
 }
 .right a {
-  color: antiquewhite;
+  color: white;
 }

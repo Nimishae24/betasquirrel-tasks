@@ -70,7 +70,7 @@ my stackoverflow link
 
  my linkdin link
 
- https://www.linkedin.com/in/nimi-e-5a4110266/
+ https://www.linkedin.com/in/nimisha-e-5a4110266/
 
 
 

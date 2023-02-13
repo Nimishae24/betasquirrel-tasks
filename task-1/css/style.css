@@ -1,11 +1,13 @@
 body {
-  background-color: black;
+  background-color:  #2f1b1a;
   margin: auto;
 }
 #navbar {
-  background-color: purple;
+  background-color: #533262;
   height: 80px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 #main-container {
   background-color: #D1D8E8;
@@ -15,15 +17,15 @@ body {
 .boxes {
   background-color: #D1D8E8;
   height: 250px;
-  width: 31%;
+  width: calc((100% / 3) - 34px);
   float: left;
   margin-bottom: 15px;
 }
 .m-r {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .m-l {
-  margin-left: 5px;
+  margin-left: 1px;
 }
 div {
   padding: 10px;
@@ -31,11 +33,14 @@ div {
 #main-container h1 {
   text-decoration: underline;
 }
-.left {
+.left, .h1 {
   float: left;
+  align-self: center;
+  display: flex;
 }
 .right {
   float: right;
+  align-self: center;
 
 }
 .left img {
@@ -44,8 +49,8 @@ div {
 .left h1 {
   display: inline;
   color: white;
-  align-self: center;
 }
 .right a {
-  color: antiquewhite;
+  color: white;
+
 }
