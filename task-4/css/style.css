@@ -76,11 +76,7 @@ body {
   height: 200px;
 }
 .tile, .circle, .chart{
-  height: 130px;
-  width: 250px;
-  float: left;
-  margin-right: 19px;
-  padding: 25px;
+  width: calc((100%) / 4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,14 +88,9 @@ body {
 }
 .circle,
 .chart {
-  float: left;
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  height: 170px;
-  width: 170px;
-  padding: 60px;
+  height: calc((100vw -200px) / 4);
+}
+.circle{
   border-radius: 50%;
 }
 #tile-container > div,
@@ -111,17 +102,16 @@ body {
   margin-right: 0;
 }
 .inner-one {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   display: flex;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  padding: 6px;
 }
 .inner-one h2,
 .inner-four h2 {
-  color: #fff;
+  color: white;
 }
 .inner-two {
   width: 90%;
@@ -132,8 +122,8 @@ body {
   align-items: center;
   background-color: #fff;
 }
-.inner-two h2 {
-  color: #555;
+.inner-one h2 {
+  color: white;
 }
 .inner-three {
   width: 90%;
@@ -142,22 +132,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff7262;
-  padding: 5px;
+  background-color: #ff7261;
 }
 .inner-four {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   display: flex;
   justify-content: center;
   border-radius: 50%;
-  padding: 6px;
   align-items: center;
 }
 .bar {
-  height: 100%;
   width: 15px;
-  overflow: hidden;
   position: absolute;
 }
 .chart {
@@ -168,33 +154,35 @@ body {
   bottom: 0;
 }
 .one {
-  left: 45px;
-  height: calc(100%- 30px);
+  left: 0;
+  height: calc(100%- 45px);
 }
 .two {
-  left: 70px;
-  height: calc(100% - 10px);
+  left: 45px;
+  height: calc(100% - 150px);
 }
 .three {
-  left: 95px;
-  height: calc(100% - 70px);
+  left: 90px;
+  height: calc(100% - 120px);
 }
 .four {
-  left: 120px;
-  height: calc(100% - 100px);
+  left: 135px;
+  height: calc(100% - 200px);
 }
 .five {
-  left: 145px;
-  height: calc(100% - 20px);
+  left: 180px;
+  height: calc(100% - 40px);
+  background-color: #5e5c5d;
 }
 .six {
-  left: 170px;
-  height: calc(100% - 50px);
+  left: 225px;
+  height: calc(100% - 280px);
+  background-color: #ff7261;
 }
 .line {
   width: 100%;
-  height: 5px;
-  background-color: #625b5b;
+  height: 15px;
+  background-color: #5e5c5d;
   position: absolute;
 }
 #sidebar nav {
@@ -211,6 +199,6 @@ body {
   padding-top: 0;
 }
 #sidebar nav a.active {
-  color: #0ece83;
+  color: #0ace82;
   text-decoration: none;
 }
