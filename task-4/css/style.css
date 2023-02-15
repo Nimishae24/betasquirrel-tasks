@@ -4,7 +4,7 @@ body {
 }
 #navbar {
   background-color: #625c5c;
-  height: 80px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +39,7 @@ body {
 }
 #sidebar {
   background-color: #625c5c;
-  height: 100%;
+  height: 150%;
   width: 150px;
   float: left;
 }
@@ -72,10 +72,12 @@ body {
 #tile-container {
   margin-bottom: 15px;
 }
-.tile{
+.tile {
   height: 200px;
 }
-.tile, .circle, .chart{
+.tile,
+.circle,
+.chart {
   width: calc((100%) / 4);
   display: flex;
   flex-direction: column;
@@ -90,7 +92,7 @@ body {
 .chart {
   height: calc((100vw -200px) / 4);
 }
-.circle{
+.circle {
   border-radius: 50%;
 }
 #tile-container > div,
@@ -143,7 +145,7 @@ body {
   align-items: center;
 }
 .bar {
-  width: 15px;
+  width: 10px;
   position: absolute;
 }
 .chart {
@@ -154,34 +156,36 @@ body {
   bottom: 0;
 }
 .one {
-  left: 0;
-  height: calc(100%- 45px);
+  left: 0px;
+  height: 240px;
+  background-color: #0ace82;
 }
 .two {
-  left: 45px;
-  height: calc(100% - 150px);
+  left: 25px;
+  height: 140px;
 }
 .three {
-  left: 90px;
-  height: calc(100% - 120px);
+  left: 50px;
+  height: 170px;
 }
 .four {
-  left: 135px;
-  height: calc(100% - 200px);
+  left: 75px;
+  height: 75px;
+  background-color: cyan;
 }
 .five {
-  left: 180px;
-  height: calc(100% - 40px);
+  left: 95px;
+  height: 200px;
   background-color: #5e5c5d;
 }
 .six {
-  left: 225px;
-  height: calc(100% - 280px);
+  left: 115px;
+  height: 30px;
   background-color: #ff7261;
 }
 .line {
-  width: 100%;
-  height: 15px;
+  width: 80%;
+  height: 5px;
   background-color: #5e5c5d;
   position: absolute;
 }
