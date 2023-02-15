@@ -54,3 +54,25 @@ div {
   color: white;
 
 }
+@media screen and (max-width: 750px){
+  .right a{
+    display: none;
+
+  }
+ #navbar {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+#main-container {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+.boxes{
+  height: auto;
+  width: 100%;
+  padding: 10px
+}
+}
+

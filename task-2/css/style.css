@@ -40,6 +40,30 @@ body {
   border: 5px solid #2ca122;
   height: 220px;
 }
+@media  screen (max-width: 750px) {
+  #navbar {
+    width: 100%;
+  }
+  #main-container {
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .one{
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+  }
+  .two{
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+  }
+  #secondary-container{
+    width: 100vw;
+    padding: 10px;
+  }
+  }
 div {
   padding: 10px;
 }
