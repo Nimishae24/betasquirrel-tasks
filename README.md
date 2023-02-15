@@ -47,6 +47,9 @@ Read the below pages and attend the tests.
  3. `git add` add your file changes to git. Ex: `git add .`
  4. `git commit` commit changes to git. Ex: `git commit -m "initial commit"`
  5. `git push`  push your local commits to remote repo. Ex: `git push origin main`
+ 6. `git stash` takes your uncommitted changes,saves them away for later use,and then reverts them from your working copy.
+ 7. `git pull` is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+ 8. `git diff` helps you see,compare,and understand changes in your project.
 
  Task 5
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
