@@ -40,33 +40,6 @@ body {
   border: 5px solid #2ca122;
   height: 220px;
 }
-@media only screen and (max-width: 750px) {
-  a{
-    display: none;
-  }
-  #navbar {
-    width: 100%;
-  }
-  #main-container {
-    height: auto;
-    padding: 10px;
-    width: 100%;
-  }
-  .one{
-    height: auto;
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  .two{
-    height: auto;
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  #secondary-container{
-    width: 100vw;
-    padding: 10px;
-  }
-  }
 div {
   padding: 10px;
 }
@@ -93,4 +66,26 @@ div {
 }
 .right a {
   color: white;
+}
+@media screen and (max-width: 500px) {
+  #main-container {
+    display: inline-block;
+    height: 500px;
+    width: fit-content;
+  }
+  .box one,
+  .box two {
+    width: 80px;
+    margin : 10px;
+    float: left;
+    padding: 10px;
+  }
+  #navbar {
+    height: 100px;
+  }
+  .right {
+    float: left;
+    margin-top: 1%;
+    margin-left: 0px;
+  }
 }
