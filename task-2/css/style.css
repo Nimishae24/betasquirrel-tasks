@@ -40,7 +40,10 @@ body {
   border: 5px solid #2ca122;
   height: 220px;
 }
-@media  screen (max-width: 750px) {
+@media only screen and (max-width: 750px) {
+  a{
+    display: none;
+  }
   #navbar {
     width: 100%;
   }
