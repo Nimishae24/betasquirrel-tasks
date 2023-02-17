@@ -1,6 +1,6 @@
 body {
   background-color: #2f1b1a;
-  margin: 0 auto;
+  margin: auto;
 }
 #navbar {
   background-color: #533262;
@@ -12,7 +12,7 @@ body {
 #main-container {
   background-color: #d1d8e8;
   height: 300px;
-  margin: 15px;
+  margin: 10px;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -32,8 +32,8 @@ body {
 #secondary-container {
   background-color: #b94141;
   height: 250px;
-  margin: 0 15px 15px 15px;
-  padding: 15px;
+  margin: 0 10px 10px 10px;
+  padding: 10px;
 }
 #inner-container {
   background-color: #dadada;
@@ -71,7 +71,7 @@ div {
   #main-container {
     display: flex;
     height: 500px;
-    width: fit-content;
+    width: 90%;
     flex-direction: column;
     padding: 10px;
   }
@@ -88,8 +88,10 @@ div {
     height: 100px;
   }
   .right {
-    float: left;
-    margin-top: 10%;
-    margin-left: 0px;
+    display: none;
   }
+  #secondary-container{
+    width: 90%;
+  }
+  
 }
