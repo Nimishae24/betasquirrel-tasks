@@ -72,29 +72,28 @@ div {
 @media screen and (max-width: 750px) {
   #main-container {
     display: flex;
-    height: 500px;
-    width: 90%;
+    height: auto;
     flex-direction: column;
     padding: 10px;
   }
-  .box one {
-    width: 80%;
-    margin: 0 auto;
-    float: left;
-    margin-bottom: 20%;
+  .one {
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
   }
-  .box two {
-    width: 80%;
-    margin: 0 auto;
-    float: left;
+  .two {
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
   }
   #navbar {
-    height: 100px;
+    width: 100%;
   }
   .right {
     display: none;
   }
   #secondary-container {
-    width: 90%;
+    width: 100vw;
+    padding: 10px;
   }
 }
