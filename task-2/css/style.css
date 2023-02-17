@@ -58,10 +58,13 @@ div {
   display: flex;
 }
 .left img {
-  height: 70px;
+  height: 60px;
+  width: 50px;
+  margin-right: 8px;
+
 }
 .left h2 {
-  display: inline;
+  display: inline-block;
   color: white;
 }
 .right a {
@@ -78,11 +81,13 @@ div {
   .box one {
     width: 80%;
     margin-bottom: 20%;
+    margin-right: 5px;
     float: left;
   }
   .box two {
     width: 80%;
     float: left;
+    margin-right: 5px;
   }
   #navbar {
     height: 100px;

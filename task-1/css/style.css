@@ -45,6 +45,7 @@ div {
 }
 .left img {
   height: 70px;
+  margin-right: 8px;
 }
 .left h1 {
   display: inline;
