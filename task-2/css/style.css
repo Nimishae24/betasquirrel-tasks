@@ -81,11 +81,13 @@ div {
     width: auto;
     height: auto;
     margin-bottom: 20%;
+    margin-right: 10%
     ;
   }
   .box two {
     width: auto;
     height: auto;
+    margin-right: 10%;
   
   }
   #navbar {
