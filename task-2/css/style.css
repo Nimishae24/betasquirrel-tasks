@@ -76,12 +76,12 @@ div {
     height: 500px;
     width: 90%;
     flex-direction: column;
-    padding: 10px;
   }
   .box one {
     width: auto;
     height: auto;
     margin-bottom: 20%;
+    ;
   }
   .box two {
     width: auto;
