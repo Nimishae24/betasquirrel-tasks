@@ -75,16 +75,17 @@ div {
     height: 500px;
     width: 90%;
     flex-direction: column;
-    margin: 10px;
   }
   .box one {
     width: auto;
     height: auto;
+    margin-right: 4px;
     margin-bottom: 20%;
   }
   .box two {
     width: auto;
     height: auto;
+    margin-right: 4px;
   }
   #navbar {
     height: 100px;
