@@ -92,7 +92,8 @@ div {
     display: none;
   }
   #secondary-container {
-    width: 100vw;
+    width: auto;
+    height: auto;
     padding: 10px;
   }
 }
