@@ -61,6 +61,12 @@ Read the below pages and attend the tests.
 - [HTML Table colspan and rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+- [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+- [HTML Form attributes](https://www.w3schools.com/html/html_forms_attributes.asp)
+- [HTML Form elements](https://www.w3schools.com/html/html_form_elements.asp)
+- [HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
+- [HTML Iput attributs](https://www.w3schools.com/html/html_form_attributes.asp)
+- [HTML Input form attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)
 
   my website
 

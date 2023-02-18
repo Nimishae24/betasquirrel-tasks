@@ -79,14 +79,11 @@ div {
   .one {
     height: auto;
     width: auto;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin-bottom: 10px;
   }
   .two {
     width: auto;
     height: auto;
-    margin-bottom: 5px;
-    margin-right: 5px;
   }
   #navbar {
     width: 100%;
