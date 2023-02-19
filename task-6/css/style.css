@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+  }
+  #navbar {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+  }
+  #logo-container {
+    float: left;
+    width: 1900px;
+    padding: 15px;
+    justify-content: flex-start;
+    display: flex;
+  }
+  #logo-container img {
+    height: 60px;
+    margin-right: 15px;
+  }
+  #logo-container h2 {
+    display: inline-block;
+    color: black;
+  }
+  #profile-container {
+    width: auto;
+    float: right;
+  }
+  #profile-container > img {
+    height: 60px;
+    border-radius: 50%;
+  }
+  .main {
+    height: calc(100vh - 81px);
+  }
+  #sidebar {
+    background-color: white;
+    height: 150%;
+    width: 150px;
+    float: left;
+  }
+  #container > h2 {
+    color: black;
+    margin: 0 0 15px 0;
+    text-decoration: underline;
+  }
+  #container {
+    padding: 15px;
+    float: left;
+    width: calc(100vw - 200px);
+  }
+  #sidebar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 30px 30px 30px; 
+  }
+  #sidebar{
+    border-right: 1px solid #ececec;
+
+  }
+  #sidebar nav a {
+    color: black;
+    padding: 5px;
+  }
+  #sidebar nav a:first-child {
+    padding-top: 0;
+  }
+  #sidebar nav a.active {
+    color: #0ace82;
+    text-decoration: none;
+  }
+  .button{
+    float: right;
+
+  }
