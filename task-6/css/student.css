@@ -1,194 +1,185 @@
 body {
-    background-color: white;
-    margin: 0 auto;
-  }
-  #navbar {
-    background-color: white;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
-  #logo-container {
-    float: left;
-    width: 1900px;
-    padding: 15px;
-    justify-content: flex-start;
-    display: flex;
-  }
-  #logo-container img {
-    height: 60px;
-    margin-right: 15px;
-  }
-  #logo-container h2 {
-    display: inline-block;
-    color: #ccc;
-  }
-  #profile-container {
-    width: auto;
-    float: right;
-  }
-  #profile-container > img {
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  .main {
-    height: calc(100vh - 81px);
-  }
-  #sidebar {
-    background-color: white;
-    height: 150%;
-    width: 150px;
-    float: left;
-    border-right: 1px solid black;
-  }
-  #container > h2 {
-    color: black;
-    margin: 0 0 15px 0;
-    font-weight: normal;
-    text-decoration: underline;
-  }
-  #container {
-    padding: 15px;
-    float: left;
-    width: calc(100vw - 200px);
-  }
-  #sidebar nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 30px 30px 30px;
-  }
-  #sidebar nav a {
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-  }
-  
-  #sidebar nav a:first-child {
-    padding-top: 0;
-  }
-  #sidebar nav a.active {
-    text-decoration: none;
-    color: #0ace82;
-  }
-  span{
-    color: red;
-  }
-  .form-container{
-    display: flex;
-    flex-wrap: wrap;
+  background-color: white;
+  margin: 0 auto;
+}
+#navbar {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-    width: 60%;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+#logo-container {
+  float: left;
+  width: 1900px;
+  padding: 15px;
+  justify-content: flex-start;
+  display: flex;
+}
+#logo-container img {
+  height: 60px;
+  margin-right: 15px;
+}
+#logo-container h2 {
+  display: inline-block;
+  color: #ccc;
+}
+#profile-container {
+  width: auto;
+  float: right;
+}
+#profile-container > img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.main {
+  height: calc(100vh - 81px);
+}
+#sidebar {
+  background-color: white;
+  height: 150%;
+  width: 150px;
+  float: left;
+  border-right: 1px solid black;
+}
+#container > h2 {
+  color: black;
+  margin: 0 0 15px 0;
+  font-weight: normal;
+  text-decoration: underline;
+}
+#container {
+  padding: 15px;
+  float: left;
+  width: calc(100vw - 200px);
+}
+#sidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 30px 30px 30px;
+}
+#sidebar nav a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
 
-  }
-  .form-container last name{
-    display: flex;
-    justify-content: space-between;
-  }
+#sidebar nav a:first-child {
+  padding-top: 0;
+}
+#sidebar nav a.active {
+  text-decoration: none;
+  color: #0ace82;
+}
+span {
+  color: red;
+}
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+}
+.form-container last name {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .first name, .last name, .mobile, .email, .branch
-  {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-  input{
-    width: 100%;
-    padding: 10px 50px 10px 10px;
-  }
-  .radio {
-    display: flex;
-  }
-  .check{
-    margin-right: 5rem;
-  }
-  .check{
-    display: flex;
-    justify-content: space-between;
-  }
-  input[type="checkbox"],
-  input[type="radio"]
-  {
-    margin-right: 0.5rem;
-    padding: 1rem;
-  }
-  input[type="text"],
-  input[type="tel"]
-  input[type="email"]
-  {
-    border-radius: 0px;
-  }
-  button[type="reset"],
-  button[type="submit"]
-  {
-    padding: 1rem 3rem;
-  }
+.first name,
+.last name,
+.mobile,
+.email,
+.branch {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px 50px 10px 10px;
+}
+.radio {
+  display: flex;
+}
+.check {
+  margin-right: 5rem;
+}
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+input[type="text"],
+input[type="tel"] input[type="email"] {
+  border-radius: 0px;
+}
+button[type="reset"],
+button[type="submit"] {
+  padding: 1rem 3rem;
+}
 
-  input[type="text"],
-  input[type="number"],
-  input[type="email"]
-  {
-  
-    border: 1px solid #ccc;
-    padding: 0.5rem 0.7rem;
-    border-radius: 5px ;
-    transition: border-color 0.15s, box-shadow 0.15s;
-  }
-  input[type="text"]:focus,
-  input[type="number"]:focus,
-  input[type="email"]:focus,
-  textarea:focus
-  {
-    border-color: #7db0fb;
-    padding: 0.5rem 0.7rem;
-    border-radius: 5px ;
-     box-shadow: 0 0 0 2px rgba(24, 117, 255, 0.25);
-  }
-  .form-group
-  {
-    margin-bottom: 1rem;
-
-  }
-  .radio div
-  {
-    display: flex;
-    align-items: center;
-  }
-  .check div{
-    display: flex;
-    align-items: center;
-  }
-  textarea{
-    width: 50%;
-    resize: none;
-    border: 1px solid lightgray;
-    outline: 0;
-  }
-  .button{
-    display: flex;
-    justify-content: flex-end;
-    padding: 2rem;
-  }
-  button[type="submit"],
-  button[type="clear"]
-  {
-    color: #fff;
-    border: 0;
-    padding: 0.8rem 2.4rem;
-    border-radius: 5rem;
-    outline: 0;
-    font-size: 0.7rem;
-    font-weight: normal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  button[type="clear"]{
-    background-color: #ff7261;
-    margin-right: 1rem;
-  }
-  button[type="submit"]{
-    background-color: #3bb989;
-  }
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #7db0fb;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px rgba(24, 117, 255, 0.25);
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.radio div {
+  display: flex;
+  align-items: center;
+}
+.check div {
+  display: flex;
+  align-items: center;
+}
+textarea {
+  width: 50%;
+  resize: none;
+  border: 1px solid lightgray;
+  outline: 0;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+button[type="submit"],
+button[type="clear"] {
+  color: #fff;
+  border: 0;
+  padding: 0.8rem 2.4rem;
+  border-radius: 5rem;
+  outline: 0;
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+button[type="clear"] {
+  background-color: #ff7261;
+  margin-right: 1rem;
+}
+button[type="submit"] {
+  background-color: #3bb989;
+}
