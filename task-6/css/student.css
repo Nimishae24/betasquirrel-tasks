@@ -79,28 +79,37 @@ span {
   color: red;
 }
 .form-container {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+.form-student {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 60%;
+  margin-right: 150px;
+  padding: 10px;
 }
-.form-container last name {
+.form-mobile {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: 150px;
+  padding: 10px;
 }
-
-.first name,
-.last name,
-.mobile,
-.email,
-.branch {
+.form-branch {
   display: flex;
-  flex-direction: column;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 150px;
+  padding: 10px;
 }
-input {
-  width: 100%;
-  padding: 10px 50px 10px 10px;
+.subject{
+  margin-right: 20px;
+  padding: 10px;
+}
+label{
+  display: block;
 }
 .radio {
   display: flex;
@@ -143,9 +152,6 @@ textarea:focus {
   border-radius: 5px;
   box-shadow: 0 0 0 2px rgba(24, 117, 255, 0.25);
 }
-.form-group {
-  margin-bottom: 1rem;
-}
 .radio div {
   display: flex;
   align-items: center;
@@ -183,3 +189,71 @@ button[type="clear"] {
 button[type="submit"] {
   background-color: #3bb989;
 }
+input{
+  width: 100%;
+}
+@media screen and (max-width: 750px){
+  #navbar{
+    display: none;
+  }
+  .main{
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+
+  }
+  #sidebar{
+    display: none;
+  }
+  #container{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .form-student{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    display: block;
+  }
+  .form-mobile{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    display: block;
+  }
+  .form-branch{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    display: block;
+  }
+  .subject{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    display: block;
+  }
+  .address{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    display: block;
+  }
+  .button{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  
+}
+

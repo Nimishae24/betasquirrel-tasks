@@ -25,41 +25,47 @@
       </div>
       <div id="container">
         <h2>STUDENT REGISTRATION</h2>
+        <form action="#">
         <div class="form-container">
-          <div class="form-container first name">
+          <div class="form-student">
+            <div class="box-input">
             <label>First Name <span>*</span> :</label>
             <input
               type="text"
               name="first name"
-              placeholder="Enter your first name"
+              placeholder="Enter your first name" autofocus
             />
           </div>
-          <div class="form-container last name">
+          <div class="box-input">
             <label>Last Name <span>*</span> :</label>
             <input
               type="text"
               name="last name"
-              placeholder="Enter your last name"
+              placeholder="Enter your last name" autofocus
             />
           </div>
-          <div class="form-container mobile">
+          </div>
+          <div class="form-mobile">
+            <div class="box-input">
             <label>Mobile <span>*</span> :</label>
             <input
-              type="number"
+              type="text"
               name="mobile"
-              placeholder="Enter your mobile"
+              placeholder="Enter your mobile" autofocus
             />
           </div>
-          <div class="form-container email">
+          <div class="box-input">
             <label>Email <span>*</span> :</label>
-            <input type="email" name="email" placeholder="Enter your email" />
+            <input type="email" name="email" placeholder="Enter your email" autofocus />
           </div>
-          <div class="form-container branch">
+          </div>
+          <div class="form-branch">
+            <div class="box-input">
             <label>Branch <span>*</span> :</label>
             <input
               type="text"
               list="branches"
-              placeholder="select branches you like"
+              placeholder="select branches you like" autofocus
             />
             <datalist id="branches">
               <option>IT</option>
@@ -68,7 +74,7 @@
               <option>EEE</option>
             </datalist>
           </div>
-          <div class="form-container radio">
+          <div class="box-input">
             <label for="">Do You Need A Hostel Facility :</label>
             <div class="radio">
               <div>
@@ -77,13 +83,13 @@
               </div>
               <div>
                 <input type="radio" name="hostel" id="yes" />
-                <label class="radio-label" for="yes">Yes</label>
+                <label class="radio-label" for="no">No</label>
               </div>
             </div>
           </div>
-        </div>
-        <div class="section">
-          <div class="subject">
+          </div>
+        <div class="subject">
+          <div class="input-box">
             <div>
               <label for="">Choose Additional Subjects :</label>
             </div>
@@ -127,5 +133,6 @@
         </div>
       </div>
     </div>
+    </form>
   </body>
 </html>

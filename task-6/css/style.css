@@ -94,21 +94,29 @@ td {
 table {
   width: 100%;
 }
-.name{
-margin: 20px;
-padding: auto;
-  display: flex;
-}
-.mobile{
-  margin: 20px;
-  display: flex;
-}
-.branch{
-  margin: 20px;
-  display: flex;
-}
-input[type=text]{
-  padding: 5px;
-  margin-left: 8px;
-  margin-bottom: 10px ;
+@media screen and (max-width: 600px) {
+  #navbar {
+    display: none;
+  }
+  .main {
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+  }
+  #sidebar {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .table th,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
 }
