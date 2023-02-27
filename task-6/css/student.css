@@ -104,7 +104,7 @@ span {
   padding: 10px;
 }
 .subject {
-  margin-right: 400px;
+margin-right: 400px;
   padding: 10px;
 }
 label {
@@ -131,7 +131,7 @@ input[type="tel"] input[type="email"] {
 }
 
 input[type="text"],
-ss input[type="number"],
+input[type="number"],
 input[type="email"] {
   border: 1px solid #ccc;
   padding: 0.5rem 0.7rem;
@@ -228,6 +228,7 @@ input {
 .subject{
   height: auto;
   width: 50%;
+  display: block;
 }
   .address {
     height: auto;
@@ -245,8 +246,11 @@ input {
   }
   .check{
     display: block;
-    flex-direction: column;
+    margin-right: auto;
+  
+    
   }
+  
   
   
 }
