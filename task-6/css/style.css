@@ -119,4 +119,7 @@ table {
     width: 100%;
     overflow: hidden;
   }
+  button{
+    display: none;
+  }
 }

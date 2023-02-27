@@ -46,7 +46,6 @@ body {
   border-right: 1px solid black;
 }
 #container > h2 {
-  
   margin: 0 0 15px 0;
   font-weight: normal;
   text-decoration: underline;
@@ -104,11 +103,11 @@ span {
   margin-right: 420px;
   padding: 10px;
 }
-.subject{
+.subject {
   margin-right: 400px;
   padding: 10px;
 }
-label{
+label {
   display: block;
 }
 .radio {
@@ -130,13 +129,9 @@ input[type="text"],
 input[type="tel"] input[type="email"] {
   border-radius: 0px;
 }
-button[type="clear"],
-button[type="submit"] {
-  padding: 1rem 3rem;
-}
 
-input[type="text"],ss
-input[type="number"],
+input[type="text"],
+ss input[type="number"],
 input[type="email"] {
   border: 1px solid #ccc;
   padding: 0.5rem 0.7rem;
@@ -174,89 +169,84 @@ textarea {
 button[type="submit"],
 button[type="clear"] {
   color: #fff;
-  border: 0;
+  border: 0px solid;
   padding: 0.8rem 2.4rem;
   border-radius: 5rem;
   outline: 0;
-  font-size: 0.7rem;
-  font-weight: normal;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 button[type="clear"] {
   background-color: #ff7261;
   margin-right: 4rem;
-
 }
 button[type="submit"] {
   background-color: #3bb989;
 }
-input{
+input {
   width: 100%;
 }
-@media screen and (max-width: 750px){
-  #navbar{
+@media screen and (max-width: 750px) {
+  #navbar {
     display: none;
   }
-  .main{
+  .main {
     height: auto;
     padding: 10px;
     flex-direction: column;
     overflow: scroll;
-
   }
-  #sidebar{
+  #sidebar {
     display: none;
   }
-  #container{
+  #container {
     height: auto;
     width: 100%;
     padding: 10px;
     flex-direction: column;
     overflow: hidden;
   }
-  .form-student{
+  .form-student {
     height: auto;
     width: 50%;
     padding: 10px;
     flex-direction: column;
     display: block;
   }
-  .form-mobile{
+  .form-mobile {
     height: auto;
     width: 50%;
     padding: 10px;
     flex-direction: column;
     display: block;
   }
-  .form-branch{
+  .form-branch {
     height: auto;
     width: 50%;
     padding: 10px;
     flex-direction: column;
     display: block;
   }
-  .subject{
+.subject{
+  height: auto;
+  width: 50%;
+}
+  .address {
     height: auto;
     width: 100%;
     padding: 10px;
     flex-direction: column;
     display: block;
   }
-  .address{
+  .button {
     height: auto;
-    width: 100%;
+    width: 50%;
     padding: 10px;
-    flex-direction: column;
-    display: block;
-  }
-  .button{
-    height: auto;
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-    margin-left: 5px;
+    margin-right: 20px;
     margin-bottom: 20px;
   }
+  .check{
+    display: block;
+    flex-direction: column;
+  }
+  
   
 }
-
