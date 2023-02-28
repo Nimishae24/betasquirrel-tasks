@@ -104,7 +104,7 @@ span {
   padding: 10px;
 }
 .subject {
-margin-right: 400px;
+  margin-right: 400px;
   padding: 10px;
 }
 label {
@@ -225,11 +225,11 @@ input {
     flex-direction: column;
     display: block;
   }
-.subject{
-  height: auto;
-  width: 50%;
-  display: block;
-}
+  .subject {
+    height: auto;
+    width: 50%;
+    display: block;
+  }
   .address {
     height: auto;
     width: 100%;
@@ -238,19 +238,13 @@ input {
     display: block;
   }
   .button {
-    height: auto;
-    width: 50%;
-    padding: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
   }
-  .check{
+  .check div {
     display: block;
     margin-right: auto;
-  
-    
+    align-items: center;
   }
-  
-  
-  
 }

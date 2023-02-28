@@ -119,5 +119,7 @@ table {
     width: 100%;
     overflow: hidden;
   }
-  
+  button{
+    float: right;
+  }
 }
