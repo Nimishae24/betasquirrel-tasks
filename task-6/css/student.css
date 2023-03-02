@@ -74,7 +74,7 @@ body {
   text-decoration: none;
   color: #0ace82;
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
@@ -108,9 +108,8 @@ span {
   padding: 10px;
 }
 .subject {
-  margin-right: 30px;
+  margin-right: 5rem;
   padding: 5px;
-
 }
 
 label {
@@ -120,12 +119,11 @@ label {
   display: flex;
 }
 .check {
-  margin-right: 2rem;
-}
-.check {
+margin-right: 5rem;
   display: flex;
   justify-content: space-between;
 }
+
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 0.5rem;
@@ -235,7 +233,6 @@ input {
     height: auto;
     width: 50%;
     display: block;
-  
   }
   .address {
     height: auto;
@@ -249,13 +246,8 @@ input {
     justify-content: flex-end;
     padding: 2rem;
   }
-  .check{
+  .check  {
     display: block;
-    margin-left: start;
-  
-  align-items: flex-start;
-  }
     
-  
-  
+  }
 }
