@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #555;
 }
 #logo-container {
   float: left;
@@ -43,7 +43,7 @@ body {
   height: 150%;
   width: 150px;
   float: left;
-  border-right: 1px solid black;
+  border-right: 1px solid #555;
 }
 #container > h2 {
   color: black;
@@ -63,7 +63,7 @@ body {
   padding: 15px 30px 30px 30px;
 }
 #sidebar nav a {
-  color: black;
+  color: #555;
   padding: 5px;
   text-decoration: none;
 }
@@ -75,16 +75,17 @@ body {
   text-decoration: none;
   color: #0ace82;
 }
+
 button {
+  background-color: #0ace82;
   float: right;
   width: -1px;
   height: 30px;
-  background-color: #0ace82;
-  color: white;
+  color: #fff;
   border: 0px solid;
   margin: -40px 5px 0 0;
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
@@ -123,8 +124,12 @@ table {
     width: 100%;
     overflow: hidden;
   }
-  .content{
+  .content {
     width: 100%;
-
+  }
+  button {
+    float: right;
+    height: 30px;
+    margin-right: -450px;
   }
 }

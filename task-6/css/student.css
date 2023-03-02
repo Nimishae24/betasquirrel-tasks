@@ -108,9 +108,11 @@ span {
   padding: 10px;
 }
 .subject {
-  
-  padding: 10px;
+  margin-right: 30px;
+  padding: 5px;
+
 }
+
 label {
   display: block;
 }
@@ -250,9 +252,8 @@ input {
   .check{
     display: block;
     margin-left: start;
-    text-align: start;
-    
-    
+  
+  align-items: flex-start;
   }
     
   
