@@ -119,7 +119,7 @@ label {
   display: flex;
 }
 .check {
-margin-right: 5rem;
+  margin-right: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -246,8 +246,7 @@ input {
     justify-content: flex-end;
     padding: 2rem;
   }
-  .check  {
+  .check {
     display: block;
-    
   }
 }
