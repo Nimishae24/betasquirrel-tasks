@@ -84,6 +84,10 @@ button {
   border: 0px solid;
   margin: -40px 5px 0 0;
 }
+.flex{
+  display: flex;
+  align-items: center;
+}
 table,
 th,
 td {
@@ -119,7 +123,8 @@ table {
     width: 100%;
     overflow: hidden;
   }
-  button{
-    float: right;
+  .content{
+    width: 100%;
+
   }
 }

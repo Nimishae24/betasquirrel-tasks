@@ -74,6 +74,10 @@ body {
   text-decoration: none;
   color: #0ace82;
 }
+.flex{
+  display: flex;
+  align-items: center;
+}
 span {
   color: red;
 }
@@ -104,7 +108,7 @@ span {
   padding: 10px;
 }
 .subject {
-  margin-right: 400px;
+  
   padding: 10px;
 }
 label {
@@ -229,6 +233,7 @@ input {
     height: auto;
     width: 50%;
     display: block;
+  
   }
   .address {
     height: auto;
@@ -242,9 +247,14 @@ input {
     justify-content: flex-end;
     padding: 2rem;
   }
-  .check div {
+  .check{
     display: block;
-    margin-right: auto;
-    align-items: center;
+    margin-left: start;
+    text-align: start;
+    
+    
   }
+    
+  
+  
 }
