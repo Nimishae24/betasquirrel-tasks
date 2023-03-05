@@ -8,7 +8,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #555;
 }
 #logo-container {
@@ -75,7 +74,6 @@ body {
   text-decoration: none;
   color: #0ace82;
 }
-
 button {
   background-color: #0ace82;
   float: right;
@@ -99,14 +97,14 @@ td {
 table {
   width: 100%;
 }
-@media screen and (max-width: 600px) {
-  #navbar {
-    display: none;
-  }
+@media screen and (max-width: 750px) {
   .main {
     height: auto;
     padding: 10px;
     flex-direction: column;
+  }
+  #logo-container{
+    width: auto;
   }
   #sidebar {
     display: none;
@@ -122,14 +120,15 @@ table {
   .table {
     display: block;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
   }
-  .content {
-    width: 100%;
-  }
-  button {
+  button{
     float: right;
-    height: 30px;
-    margin-right: -450px;
+    margin-right: -100px;
+
   }
+
+
+  
+  
 }

@@ -66,7 +66,6 @@ body {
   padding: 5px;
   text-decoration: none;
 }
-
 #sidebar nav a:first-child {
   padding-top: 0;
 }
@@ -91,7 +90,7 @@ span {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 450px;
-  padding: 5px;
+  padding: 10px;
 }
 .form-mobile {
   display: flex;
@@ -109,31 +108,28 @@ span {
 }
 .subject {
   margin-right: 5rem;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
   display: block;
 }
-label
- {
+label {
   display: block;
   white-space: nowrap;
 }
 .radio {
   display: flex;
 }
-.check div{
+.check div {
   display: flex;
   align-items: center;
 }
-.check 
-{
+.check {
   display: flex;
   justify-content: space-between;
   margin-right: 5rem;
 }
 input[type="checkbox"],
-input[type="radio"]
- {
+input[type="radio"] {
   margin-right: 0.5rem;
   padding: 1rem;
 }
@@ -146,7 +142,6 @@ input[type="number"],
 input[type="email"] {
   border: 1px solid #ccc;
   padding: 0.5rem 0.7rem;
-
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 input[type="text"]:focus,
@@ -155,7 +150,6 @@ input[type="email"]:focus,
 textarea:focus {
   border-color: #7db0fb;
   padding: 0.5rem 0.7rem;
-  
   box-shadow: 0 0 0 2px rgba(24, 117, 255, 0.25);
 }
 .radio div {
@@ -196,12 +190,8 @@ input {
   width: 100%;
 }
 @media screen and (max-width: 750px) {
-  #navbar {
-    display: none;
-  }
   .main {
     height: auto;
-    padding: 10px;
     flex-direction: column;
     overflow: scroll;
   }
@@ -211,21 +201,19 @@ input {
   #container {
     height: auto;
     width: 600px;
-    padding: 10px;
     flex-direction: column;
     overflow: hidden;
   }
   .form-student {
     height: auto;
     width: 50%;
-    padding: 10px;
     flex-direction: column;
     display: block;
   }
   .form-mobile {
     height: auto;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
     flex-direction: column;
     display: block;
   }
@@ -240,9 +228,7 @@ input {
     display: block;
     height: auto;
     width: 100px;
-    
     white-space: nowrap;
-    
   }
   .address {
     height: auto;
@@ -256,19 +242,13 @@ input {
     justify-content: flex-start;
     padding: 2rem;
   }
- .box-input{
-    
-  
+  .box-input {
     padding: 5px;
   }
-    .check{
-      display: block;
-      
-    }
-    label{
-      white-space: nowrap;
-    }
-  
-
-  
+  .check {
+    display: block;
+  }
+  label {
+    white-space: nowrap;
+  }
 }
