@@ -68,19 +68,15 @@ Read the below pages and attend the tests.
 - [HTML Iput attributs](https://www.w3schools.com/html/html_form_attributes.asp)
 - [HTML Input form attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)
 
-  my website
+  ## DEMO-WEBSITE
+
+
   [live](https://nimishae24.github.io/coding-task)
 
- https://nimishae24.github.io/coding-task
+# Profiles
 
-
-my stackoverflow link
-
- https://stackoverflow.com/users/21205649/nimisha
-
- my linkdin link
-
- https://www.linkedin.com/in/nimisha-e-5a4110266/
+[stack-overflow](https://stackoverflow.com/users/21205649/nimisha)
+ [linkedIn](https://www.linkedin.com/in/nimisha-e-5a4110266/)
 
  car wash web app figma link
 
