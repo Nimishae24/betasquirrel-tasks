@@ -75,8 +75,9 @@ Read the below pages and attend the tests.
 
 # Profiles
 
-[stack-overflow](https://stackoverflow.com/users/21205649/nimisha)
- [linkedIn](https://www.linkedin.com/in/nimisha-e-5a4110266/)
+ - [stack-overflow](https://stackoverflow.com/users/21205649/nimisha)
+ 
+ - [linkedIn](https://www.linkedin.com/in/nimisha-e-5a4110266/)
 
  car wash web app figma link
 
