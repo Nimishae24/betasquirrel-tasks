@@ -82,20 +82,20 @@ Read the below pages and attend the tests.
 
 TASK 8
 
--[JS HOME](https://www.w3schools.com/js/default.asp)
--[JS Introduction](https://www.w3schools.com/js/js_intro.asp)
--[JS Where To](https://www.w3schools.com/js/js_whereto.asp)
--[JS Output](https://www.w3schools.com/js/js_output.asp)
--[JS Statements](https://www.w3schools.com/js/js_statements.asp)
--[JS Syntax](https://www.w3schools.com/js/js_syntax.asp)
--[JS Comments](https://www.w3schools.com/js/js_comments.asp)
--[JS Variables](https://www.w3schools.com/js/js_variables.asp)
--[JS Let](https://www.w3schools.com/js/js_let.asp)
--[JS Const](https://www.w3schools.com/js/js_const.asp)
--[JS Operators](https://www.w3schools.com/js/js_operators.asp)
--[JS Arithemetics](https://www.w3schools.com/js/js_arithmetic.asp)
--[JS Assignments](https://www.w3schools.com/js/js_assignment.asp)
--[JS Datatypes](https://www.w3schools.com/js/js_datatypes.asp)
+- [JS HOME](https://www.w3schools.com/js/default.asp)
+- [JS Introduction](https://www.w3schools.com/js/js_intro.asp)
+- [JS Where To](https://www.w3schools.com/js/js_whereto.asp)
+- [JS Output](https://www.w3schools.com/js/js_output.asp)
+- [JS Statements](https://www.w3schools.com/js/js_statements.asp)
+- [JS Syntax](https://www.w3schools.com/js/js_syntax.asp)
+- [JS Comments](https://www.w3schools.com/js/js_comments.asp)
+- [JS Variables](https://www.w3schools.com/js/js_variables.asp)
+- [JS Let](https://www.w3schools.com/js/js_let.asp)
+- [JS Const](https://www.w3schools.com/js/js_const.asp)
+- [JS Operators](https://www.w3schools.com/js/js_operators.asp)
+- [JS Arithemetics](https://www.w3schools.com/js/js_arithmetic.asp)
+- [JS Assignments](https://www.w3schools.com/js/js_assignment.asp)
+- [JS Datatypes](https://www.w3schools.com/js/js_datatypes.asp)
 
 
 
