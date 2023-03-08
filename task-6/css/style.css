@@ -49,11 +49,18 @@ body {
   margin: 0 0 15px 0;
   font-weight: normal;
   text-decoration: underline;
+  
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #container {
   padding: 15px;
   float: left;
   width: calc(100vw - 200px);
+  
 }
 #sidebar nav {
   display: flex;
@@ -74,6 +81,7 @@ nav i {
 nav i {
   vertical-align: middle;
   line-height: 27px !important;
+  color: aqua;
 }
 #sidebar nav a:first-child {
   padding-top: 0;
@@ -82,15 +90,14 @@ nav i {
   text-decoration: none;
   color: #0ace82;
 }
-button {
-  background-color: #0ace82;
-  float: right;
-  width: -1px;
-  height: 30px;
+.link-btn{
+  background-color: #3cb989;
   color: #fff;
-  border: 0px solid;
-  margin: -40px 5px 0 0;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
 }
+
 .flex {
   display: flex;
   align-items: center;
@@ -110,10 +117,9 @@ table {
     height: auto;
     padding: 10px;
     flex-direction: column;
+    overflow: scroll;
   }
-  #logo-container{
-    width: auto;
-  }
+
   #sidebar {
     display: none;
   }
@@ -130,9 +136,9 @@ table {
     width: 100%;
     overflow: auto;
   }
-  button{
+  .link-btn{
     float: right;
-    margin-right: -100px;
+    margin-right: -150px;
 
   }
 

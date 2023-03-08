@@ -52,6 +52,7 @@ Read the below pages and attend the tests.
  8. `git diff` helps you see,compare,and understand changes in your project.
 
  Task 5
+
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 - [HTML Table borders](https://www.w3schools.com/html/html_table_borders.asp)
@@ -68,8 +69,7 @@ Read the below pages and attend the tests.
 - [HTML Iput attributs](https://www.w3schools.com/html/html_form_attributes.asp)
 - [HTML Input form attributes](https://www.w3schools.com/html/html_form_attributes_form.asp)
 
-  ## DEMO-WEBSITE
-
+## DEMO-WEBSITE
 
   [live](https://nimishae24.github.io/coding-task)
 
@@ -79,13 +79,41 @@ Read the below pages and attend the tests.
  
  - [linkedIn](https://www.linkedin.com/in/nimisha-e-5a4110266/)
 
- car wash web app figma link
 
- https://www.figma.com/proto/1atSP5wYSkZbObDDZEWPrj/car-app?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2
+TASK 8
 
- car wash mobile app figma link
+-[JS HOME](https://www.w3schools.com/js/default.asp)
+-[JS Introduction](https://www.w3schools.com/js/js_intro.asp)
+-[JS Where To](https://www.w3schools.com/js/js_whereto.asp)
+-[JS Output](https://www.w3schools.com/js/js_output.asp)
+-[JS Statements](https://www.w3schools.com/js/js_statements.asp)
+-[JS Syntax](https://www.w3schools.com/js/js_syntax.asp)
+-[JS Comments](https://www.w3schools.com/js/js_comments.asp)
+-[JS Variables](https://www.w3schools.com/js/js_variables.asp)
+-[JS Let](https://www.w3schools.com/js/js_let.asp)
+-[JS Const](https://www.w3schools.com/js/js_const.asp)
+-[JS Operators](https://www.w3schools.com/js/js_operators.asp)
+-[JS Arithemetics](https://www.w3schools.com/js/js_arithmetic.asp)
+-[JS Assignments](https://www.w3schools.com/js/js_assignment.asp)
+-[JS Datatypes](https://www.w3schools.com/js/js_datatypes.asp)
 
-https://www.figma.com/proto/gK4teNPYSq6YDii2inHT5m/Untitled?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
