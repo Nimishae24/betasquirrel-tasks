@@ -49,9 +49,8 @@ body {
   margin: 0 0 15px 0;
   font-weight: normal;
   text-decoration: underline;
-  
 }
-.content{
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,7 +59,6 @@ body {
   padding: 15px;
   float: left;
   width: calc(100vw - 200px);
-  
 }
 #sidebar nav {
   display: flex;
@@ -90,14 +88,13 @@ nav i {
   text-decoration: none;
   color: #0ace82;
 }
-.link-btn{
+.link-btn {
   background-color: #3cb989;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
   padding: 15px 30px;
 }
-
 .flex {
   display: flex;
   align-items: center;
@@ -112,6 +109,10 @@ td {
 table {
   width: 100%;
 }
+.table-container
+{
+  width: 100%;
+}
 @media screen and (max-width: 750px) {
   .main {
     height: auto;
@@ -119,12 +120,11 @@ table {
     flex-direction: column;
     overflow: scroll;
   }
-
   #sidebar {
     display: none;
   }
   .container {
-    width: 100%;
+    width: calc(100%);
   }
   .table th,
   .table td {
@@ -134,15 +134,13 @@ table {
   .table {
     display: block;
     width: 100%;
-    overflow: auto;
   }
-  .link-btn{
+  .link-btn {
     float: right;
     margin-right: -150px;
-
   }
-
-
-  
-  
+  .table-container {
+    width: 600px;
+    overflow: auto;
+  }
 }

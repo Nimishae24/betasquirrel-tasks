@@ -42,7 +42,6 @@ div {
 .right {
   float: right;
   align-self: center;
-  
 }
 .left img {
   height: 70px;
@@ -94,6 +93,5 @@ div {
     height: auto;
     width: 100%;
     padding: 10px;
-  
   }
 }

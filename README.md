@@ -71,7 +71,7 @@ Read the below pages and attend the tests.
 
 ## DEMO-WEBSITE
 
-  [live](https://nimishae24.github.io/coding-task)
+ - [live](https://nimishae24.github.io/coding-task)
 
 # Profiles
 
