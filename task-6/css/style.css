@@ -114,16 +114,16 @@ table {
   width: 100%;
 }
 @media screen and (max-width: 750px) {
-  .main {
+  /* .main {
     height: auto;
     padding: 10px;
     flex-direction: column;
     overflow: scroll;
-  }
+  } */
   #sidebar {
     display: none;
   }
-  .container {
+  /* .container {
     width: calc(100%);
   }
   .table th,
@@ -138,7 +138,7 @@ table {
   .link-btn {
     float: right;
     margin-right: -150px;
-  }
+  } */
   .table-container {
     width: 600px;
     overflow: auto;

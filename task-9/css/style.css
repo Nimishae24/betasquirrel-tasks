@@ -1,0 +1,42 @@
+.container {
+   width: 440px;
+   height: 520px;
+   background-color: grey;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+h1 {
+   text-align: center;
+}
+P {
+   color: palegreen;
+   margin-left: 10px;
+   font-size: 1.5rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 10px;
+}
+#screen
+{
+   background-color: antiquewhite;
+   height: 80px;
+   width: 433px;
+   margin-top: 2px;
+   font-size: xx-large;
+   border-radius: 10px;
+}
+.button{
+   color: beige;
+   background-color: black;
+   width: 90px;
+   height: 70px;
+   font-size: x-large;
+   margin: 8px;
+   border-radius: 15px;
+}
+.clear{
+   color: red;
+}
+.button:hover {
+   border: 5px solid gold;
+}
